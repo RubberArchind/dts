@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CaloriesDatabase</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="aktivitas_fisik">
+        <item>Sangat jarang olahraga</item>
+        <item>Jarang olahraga (1-3 hari/ minggu)</item>
+        <item>Normal olahraga (3-5 hari/ minggu)</item>
+        <item>Sering olahraga (6-7 hari/ minggu)</item>
+        <item>Sangat sering olahraga (setiap hari bisa dua kali dalam sehari)</item>
+    </string-array>
+    <string-array name="waktu_makan">
+        <item>Makan Pagi</item>
+        <item>Makan Siang</item>
+        <item>Makan Malam</item>
+    </string-array>
+</resources>
