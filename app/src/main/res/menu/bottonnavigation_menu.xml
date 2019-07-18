@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/dc_menu"
+        android:title="DC"
+        android:icon="@drawable/ic_android_black"/>
+
+    <item
+        android:id="@+id/marvel_menu"
+        android:title="Marvel"
+        android:icon="@drawable/ic_accessibility_black"/>
+
+
+</menu>
