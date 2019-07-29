@@ -5,12 +5,21 @@
     <item
         android:id="@+id/dc_menu"
         android:title="DC"
-        android:icon="@drawable/ic_android_black"/>
+        android:icon="@drawable/ic_dcclogo"/>
 
     <item
         android:id="@+id/marvel_menu"
         android:title="Marvel"
-        android:icon="@drawable/ic_accessibility_black"/>
+        android:icon="@drawable/ic_marvel_comics"/>
 
+    <item
+        android:id="@+id/favorite_menu"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite_black"/>
+
+    <item
+        android:id="@+id/account_menu"
+        android:title="Account"
+        android:icon="@drawable/ic_account_box_black"/>
 
 </menu>

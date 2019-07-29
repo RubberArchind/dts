@@ -2,21 +2,34 @@ package id.primadev.recyclerview.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 
 public class Heroes {
+    @SerializedName("id")
+    @Expose
+    private Integer id;
+
    @SerializedName("name")
+   @Expose
     private String name;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     @SerializedName("desc")
+    @Expose
     private String desc;
 
-    public Heroes(String name, String desc, String imgURL) {
-        this.name = name;
-        this.desc = desc;
-        this.imgURL = imgURL;
+    public Heroes() {
     }
 
     public String getName() {
@@ -45,5 +58,6 @@ public class Heroes {
 
     @SerializedName("imgURL")
     private String imgURL;
+
 
 }
